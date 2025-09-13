@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4f46e5;
+}
+
+/* focus-visible basic */
+:focus-visible { outline: 3px solid rgba(79,70,229,0.2); outline-offset: 2px; }
